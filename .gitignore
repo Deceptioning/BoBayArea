@@ -1,0 +1,8 @@
+/.vscode
+*.pyproj
+BoBay_Area/_pycache_
+env/*
+BoBay_Area/static/*
+BoBay_Area/templates/*
+*.pyc
+*.pyproj.user
