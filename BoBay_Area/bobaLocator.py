@@ -15,7 +15,7 @@ class bobaLocator(object):
     gmaps = googlemaps.Client(key='AIzaSyCzaTrxvJsCwF0IOIcnn52iILwxKFhhfUo')
 
     def __init__(self, filename):
-        self.boba = pd.read_csv(filename)
+        self.boba = pd.read_csv("./boba.csv")
 
     def calc_coords(self):
         self.boba['Lat'] = self.boba['Address'].apply(geocoder.google).apply(lambda x: x.lat)
