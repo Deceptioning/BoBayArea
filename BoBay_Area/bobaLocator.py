@@ -12,7 +12,7 @@ from geojsonio import display
 
 
 class bobaLocator(object):
-    gmaps = googlemaps.Client(key='AIzaSyCzaTrxvJsCwF0IOIcnn52iILwxKFhhfUo')
+    gmaps = googlemaps.Client(key='')
 
     def __init__(self, filename):
         self.boba = pd.read_csv("./boba.csv")
